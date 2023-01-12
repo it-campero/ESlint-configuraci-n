@@ -1,0 +1,13 @@
+⭐ Comandos para instalar Eslint: npm install --save-dev eslint
+⭐ Comandos para configurar ESLint: npm init @eslint/config
+
+⭐ Comando para mostrar error por consola sin usar la extención en VScode: npx eslint index.js // npx eslint *.js // npx eslint *.*
+
+⭐ Comando para coregir todos los errores: npx eslint *.js --fix
+
+// SE AGREGA LA SIGUIENTE LINEA AL package.json =  "lint": "eslint *.js --fix" en el sector de Script
+// CON EL CODIGO npm run lint PARA CORRER EL COMANDO ASIGNADO después ejecutar npx eslint *.js para ver si se corrigieron los errores (estado).-
+
+autor: matiasrheinze@gmail.com
+
+
